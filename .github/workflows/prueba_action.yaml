@@ -1,0 +1,10 @@
+name: GitAction de prueba
+on:
+  push:
+
+jobs:
+  mostrar_mensaje:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje
+        run: echo "¡Hola! Este es un mensaje de prueba desde GitHub Actions." 
