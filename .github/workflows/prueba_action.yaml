@@ -7,4 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar mensaje
-        run: echo "¡Hola! Este es un mensaje de prueba desde GitHub Actions." 
+        run: |
+          echo "Hola"
+          echo "Fecha "
+          date
+          echo "Version de Java"
+          java -version
